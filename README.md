@@ -1,4 +1,4 @@
-[![OS Icon](https://github.com/neriabd/neriabd/blob/main/logos/OperatingSystems.png)]([https://shnaton.huji.ac.il/index.php/NewSyl/67829/2/2022/](https://www4.huji.ac.il/htph/shnatonDev/index.php/NewSyl/67808/2/2024/)
+[![OS Icon](https://github.com/neriabd/neriabd/blob/main/logos/OperatingSystems.png)]([https://shnaton.huji.ac.il/index.php/NewSyl/67829/2/2022/]
 
 ### Assignments  
 -  → [**Assignment 1**](https://github.com/neriabd/OperatingSystems/tree/main/Assignment%201)
