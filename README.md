@@ -6,7 +6,7 @@
 
 ### Assignments  
 -  → [**Assignment 1**](https://github.com/neriabd/OperatingSystems/tree/main/Assignment%201)
-<br> Measure the time it takes to run various operations on VM, container and directly.
+<br> Measure the time it takes to run various operations on VM, container and directly on computer.
 <br><br>
 -  → [**Assignment 2**](https://github.com/neriabd/OperatingSystems/tree/main/Assignment%202)
 <br> Implementation of a library that creates and manages user-level threads.
