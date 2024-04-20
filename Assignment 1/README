@@ -1,0 +1,34 @@
+yuvalbus, neriyabd
+Yuval Bustanai (207424722), Neriya Ben David (206698581)
+EX: 1
+
+FILES:
+osm.cpp -- a file with some code
+
+REMARKS:
+
+Assignment 1:
+At first, it created a directory called welcome_dir_1 in the current path, with write execute and read permissions 
+for all users (user, group and other),
+and a new sub-directory "welcome_dir_2" in the welcome_dir_1 folder with write, execute and read permissions 
+for all users (user, group and other).
+
+Then, checked the heap's end address and changed it to 0x55a00659c000.
+
+Then, succesfully opened (or zeroed it if existed) a file called "welcome_file.txt" in directory "welcome_dir_2", 
+with write and read permissions for all users (user, group and other),
+and succesfully opened the file "etc/localtime" (specifing that the file will be open with read only permissions and
+will be closed while calling an execve() system call).
+
+Afterwards, retrieved the file mode and size of file "localtime", which it's size is 2388, with 0644 permmission 
+(read and write for owner and read permissions for group and other).
+Read up to 4096 bytes (in practice 2388 bytes) from file /etc/localtime and stored them in a given buffer.
+Then, moved "/etc/localtime"'s pointer position back by 1506 bytes (to 882) and read since that point until 
+the end (1506 bytes), and after that - closed the file.
+
+Retrieved succesfully the file mode and size of the file welcome_file.txt, which it's size is 0, with 
+0644 permmission (read and write for owner and read permissions for group and other).
+Then, wrote the string "welcome to OS-2023" to welcome_file.txt and closed it.
+
+Finally, it deleted the file welcome_file.txt (from directory ./welcome_dir_1/welcome_dir_2). And afterwards -
+deleted "./welcome_dir_1/welcome_dir_2" directory and "./welcome_dir_1" directory (after failing to unlink them).
