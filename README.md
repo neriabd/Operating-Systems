@@ -1,6 +1,5 @@
-<div style="text-align:center">
-    [![OS Icon](https://github.com/neriabd/neriabd/blob/main/logos/OperatingSystems.png)](https://shnaton.huji.ac.il/index.php/NewSyl/67829/2/2022/)
-</div>
+[![OS Icon](https://github.com/neriabd/neriabd/blob/main/logos/OperatingSystems.png)](https://shnaton.huji.ac.il/index.php/NewSyl/67829/2/2022/)
+
 ### Assignments  
 -  → [**Assignment 1**](https://github.com/neriabd/OperatingSystems/tree/main/Assignment%201)
 <br> Detect scene cuts in video
